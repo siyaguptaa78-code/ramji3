@@ -47,6 +47,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: config.domain,
   },
+  verification: {
+    google: 'jj2-4tEzlZA3Bi_8gYa5XBKNTiVhSMglfm0Dj-u3qsI',
+  },
   openGraph: {
     title: `${config.name} | Next-Gen Sportsbook & Turbo Casino`,
     description: config.description,
