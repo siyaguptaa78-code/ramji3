@@ -12,23 +12,22 @@ import {
 const config = SITE_CONFIGS.ramji3;
 
 export const metadata: Metadata = {
-  metadataBase: new URL(config.domain),
+  metadataBase: new URL('https://ramji247cricket.live'),
   title: {
-    default: `${config.name} | Next-Gen Sportsbook, eSports & Turbo Casino`,
-    template: `%s | ${config.name}`,
+    default: "RAMJI247 | Live Cricket Odds, Real-Time Ball-by-Ball Match Updates & In-Play Exchange",
+    template: "%s | RAMJI247",
   },
   description: config.description,
-  keywords: [
-    'Ramji3',
-    'Ramji247 sports',
-    'next-gen sportsbook',
-    'live in-play cricket odds',
-    'spinbetter alternative india',
-    'aviator crash game demo',
-    'whatsapp betting id',
-    'instant id generation',
-    'fast upi withdrawal betting',
-    'football champions league live odds'
+  keywords:   [
+      "RAMJI247 Live",
+      "Live Cricket Match Information",
+      "Live Cricket Scores & Odds",
+      "In-Play Cricket Trading",
+      "T20 World Cup Live Rates",
+      "Ball by Ball Match Exchange",
+      "Live Cricket Rates",
+      "Cricket ID Live In-Play",
+      "Real Time Match Odds"
   ],
   authors: [{ name: config.name }],
   creator: config.name,

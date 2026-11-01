@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/private/', '/api/'],
     },
-    sitemap: 'https://ramji3.com/sitemap.xml',
+    sitemap: 'https://ramji247cricket.live/sitemap.xml',
   };
 }
 
