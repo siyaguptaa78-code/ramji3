@@ -9,7 +9,7 @@ interface FooterLogoProps {
 
 export const FooterLogo: React.FC<FooterLogoProps> = ({ siteName, className = '' }) => {
   return (
-    <Link href="/" className={`inline-block group ${className}`} aria-label={`${siteName} Footer Logo`}>
+    <Link href="/" className={`inline-block group ${className}`} aria-label={`${siteName} Home`}>
       <Image
         src="/images/logo.png"
         alt={`${siteName} Footer Brand Logo`}
@@ -17,6 +17,7 @@ export const FooterLogo: React.FC<FooterLogoProps> = ({ siteName, className = ''
         height={52}
         className="h-10 sm:h-12 w-auto object-contain transition-opacity duration-200 group-hover:opacity-90"
       />
+      <span className="sr-only">{siteName} Home</span>
     </Link>
   );
 };

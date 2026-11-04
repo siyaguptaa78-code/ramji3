@@ -43,10 +43,10 @@ export default function PromotionsPage() {
           <span>BOOSTERS & REWARDS</span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-          Ramji3 Active Bonuses & Promos
+          RAMJI247 Promotional Offers &amp; Rewards
         </h1>
         <p className="text-xs sm:text-sm text-neutral-400 mt-2">
-          Claim instant bonus credits and weekly rebates through our 24/7 WhatsApp helpdesk.
+          Review active bonus structures and weekly rebates available through our 24/7 WhatsApp helpdesk.
         </p>
       </div>
 
@@ -67,7 +67,7 @@ export default function PromotionsPage() {
                     {p.badge}
                   </span>
                 </div>
-                <h3 className="text-base font-bold text-white mb-2">{p.title}</h3>
+                <h2 className="text-base font-bold text-white mb-2">{p.title}</h2>
                 <p className="text-xs text-neutral-300 leading-relaxed mb-4">{p.desc}</p>
               </div>
 

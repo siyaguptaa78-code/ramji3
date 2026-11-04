@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Match Settlement & Terms of Information",
-  description: "Transparent match settlement criteria, rain/abandonment rules, and informational terms for RAMJI247 Live.",
-  keywords: ["cricket settlement rules","rain match rules cricket","RAMJI247 live terms"],
+  title: "Terms of Service & Match Information Rules",
+  description: "Read the RAMJI247 Terms of Service, informational platform scope, 18+ eligibility standards, and match settlement guidelines.",
+  keywords: ["ramji247 terms of service","match settlement rules","RAMJI247 guidelines"],
   alternates: {
     canonical: "https://ramji247cricket.live/terms",
   },
   openGraph: {
-    title: "Match Settlement & Terms of Information | RAMJI247",
-    description: "Transparent match settlement criteria, rain/abandonment rules, and informational terms for RAMJI247 Live.",
+    title: "Terms of Service & Match Information Rules | RAMJI247",
+    description: "Read the RAMJI247 Terms of Service, informational platform scope, 18+ eligibility standards, and match settlement guidelines.",
     url: "https://ramji247cricket.live/terms",
     siteName: "RAMJI247",
     images: [
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Match Settlement & Terms of Information | RAMJI247",
-    description: "Transparent match settlement criteria, rain/abandonment rules, and informational terms for RAMJI247 Live.",
+    title: "Terms of Service & Match Information Rules | RAMJI247",
+    description: "Read the RAMJI247 Terms of Service, informational platform scope, 18+ eligibility standards, and match settlement guidelines.",
     images: ['/images/logo.png'],
   },
 };

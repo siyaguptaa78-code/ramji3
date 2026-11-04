@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Responsible Gaming & Safe In-Play Guidelines",
-  description: "Practical tools and strict guidelines for balanced and mindful in-play participation on RAMJI247 Live.",
-  keywords: ["responsible in-play gaming","match timeout limit","RAMJI247 safe play"],
+  title: "Responsible Gaming & 18+ Safe Play Policy",
+  description: "Learn about RAMJI247 18+ responsible gaming guidelines, session limits, bankroll discipline, and WhatsApp self-exclusion options.",
+  keywords: ["ramji247 responsible gaming","18+ safe play policy","self exclusion whatsapp"],
   alternates: {
     canonical: "https://ramji247cricket.live/responsible-gaming",
   },
   openGraph: {
-    title: "Responsible Gaming & Safe In-Play Guidelines | RAMJI247",
-    description: "Practical tools and strict guidelines for balanced and mindful in-play participation on RAMJI247 Live.",
+    title: "Responsible Gaming & 18+ Safe Play Policy | RAMJI247",
+    description: "Learn about RAMJI247 18+ responsible gaming guidelines, session limits, bankroll discipline, and WhatsApp self-exclusion options.",
     url: "https://ramji247cricket.live/responsible-gaming",
     siteName: "RAMJI247",
     images: [
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Responsible Gaming & Safe In-Play Guidelines | RAMJI247",
-    description: "Practical tools and strict guidelines for balanced and mindful in-play participation on RAMJI247 Live.",
+    title: "Responsible Gaming & 18+ Safe Play Policy | RAMJI247",
+    description: "Learn about RAMJI247 18+ responsible gaming guidelines, session limits, bankroll discipline, and WhatsApp self-exclusion options.",
     images: ['/images/logo.png'],
   },
 };

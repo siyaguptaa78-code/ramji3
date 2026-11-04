@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Live Casino & Crash Aviator Lounge",
-  description: "Fast-paced live casino action, Spribe Aviator, and premium live card tables on RAMJI247 Live.",
-  keywords: ["live casino live odds","aviator crash live","instant casino id"],
+  title: "Live Casino, Teen Patti & Crash Games",
+  description: "Explore live dealer Teen Patti, Andar Bahar, Roulette, and Spribe Aviator crash games on RAMJI247 with 24/7 WhatsApp support.",
+  keywords: ["ramji247 live casino","aviator crash game","teen patti live tables"],
   alternates: {
     canonical: "https://ramji247cricket.live/casino",
   },
   openGraph: {
-    title: "Live Casino & Crash Aviator Lounge | RAMJI247",
-    description: "Fast-paced live casino action, Spribe Aviator, and premium live card tables on RAMJI247 Live.",
+    title: "Live Casino, Teen Patti & Crash Games | RAMJI247",
+    description: "Explore live dealer Teen Patti, Andar Bahar, Roulette, and Spribe Aviator crash games on RAMJI247 with 24/7 WhatsApp support.",
     url: "https://ramji247cricket.live/casino",
     siteName: "RAMJI247",
     images: [
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Live Casino & Crash Aviator Lounge | RAMJI247",
-    description: "Fast-paced live casino action, Spribe Aviator, and premium live card tables on RAMJI247 Live.",
+    title: "Live Casino, Teen Patti & Crash Games | RAMJI247",
+    description: "Explore live dealer Teen Patti, Andar Bahar, Roulette, and Spribe Aviator crash games on RAMJI247 with 24/7 WhatsApp support.",
     images: ['/images/logo.png'],
   },
 };

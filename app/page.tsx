@@ -62,14 +62,14 @@ export default function HomePage() {
               </div>
 
               <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.12]">
-                Faster Odds. <br />
+                RAMJI247 Live Cricket <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">
-                  Instant WhatsApp IDs.
+                  Updates &amp; In-Play Exchange
                 </span>
               </h1>
 
               <p className="text-sm sm:text-base text-neutral-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                Connect to <strong className="text-emerald-400 font-semibold">Ramji3</strong> for dynamic in-play cricket, international soccer leagues, and high-frequency crash games. Zero registration friction, instant deposits and rapid 2-minute UPI cashouts.
+                Connect to <strong className="text-emerald-400 font-semibold">RAMJI247</strong> for dynamic in-play cricket updates, international football leagues, and live casino tables with 24/7 WhatsApp assistance.
               </p>
 
               {/* Action Buttons */}
@@ -254,11 +254,47 @@ export default function HomePage() {
       <PaymentMethodsBar />
       <ProvidersBar />
 
-      {/* 5. FAQS */}
+      {/* 5. LIVE CRICKET & PLATFORM OVERVIEW */}
+      <section className="py-12 sm:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-neutral-900">
+        <div className="max-w-3xl mb-8">
+          <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest">Match &amp; Exchange Guide</span>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-white mt-1">
+            RAMJI247 Live Cricket Markets &amp; Platform Overview
+          </h2>
+          <p className="text-xs sm:text-sm text-neutral-300 mt-2 leading-relaxed">
+            RAMJI247 delivers real-time match tracking, session odds previews, and multi-sport fixture schedules alongside interactive casino guides.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-xs sm:text-sm text-neutral-300 leading-relaxed">
+          <div className="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-6 space-y-2.5">
+            <h3 className="text-base font-bold text-white">Ball-by-Ball Cricket &amp; Multi-Sport Coverage</h3>
+            <p className="text-neutral-400">
+              Explore live and upcoming T20, ODI, Test cricket, Premier League football, and ATP/WTA tennis markets in our <Link href="/sports" className="text-emerald-400 hover:underline">Sports Exchange directory</Link>. Review back and lay pricing across major domestic and international tournaments.
+            </p>
+          </div>
+
+          <div className="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-6 space-y-2.5">
+            <h3 className="text-base font-bold text-white">Instant Crash &amp; Live Dealer Tables</h3>
+            <p className="text-neutral-400">
+              Browse the <Link href="/casino" className="text-emerald-400 hover:underline">Live Casino &amp; Crash hub</Link> featuring Aviator multiplier games, Teen Patti Live, Andar Bahar, and Lightning Roulette from leading studio providers including Evolution and Spribe.
+            </p>
+          </div>
+
+          <div className="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-6 space-y-2.5">
+            <h3 className="text-base font-bold text-white">24/7 WhatsApp Desk &amp; 18+ Standards</h3>
+            <p className="text-neutral-400">
+              Our <Link href="/contact" className="text-emerald-400 hover:underline">official WhatsApp support desk</Link> provides round-the-clock account assistance in English and Hindi. All services strictly enforce <Link href="/responsible-gaming" className="text-emerald-400 hover:underline">18+ responsible gaming policies</Link> and voluntary cooling-off tools.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 6. FAQS */}
       <FaqAccordion 
         faqs={GENERAL_FAQS}
-        title="Ramji3 Frequently Asked Questions"
-        subtitle="Quick answers on ID creation, sportsbook markets, and 2-minute UPI cashouts."
+        title="RAMJI247 Live Cricket Frequently Asked Questions"
+        subtitle="Answers on live match updates, sportsbook markets, and 24/7 WhatsApp assistance."
         brandPrimary="text-emerald-400"
       />
 

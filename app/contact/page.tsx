@@ -13,10 +13,10 @@ export default function ContactPage() {
 
       <div className="text-center max-w-2xl mx-auto my-8">
         <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-          Ramji3 Verified Support Desk
+          RAMJI247 Official Support &amp; WhatsApp Desk
         </h1>
         <p className="text-xs sm:text-sm text-neutral-400 mt-2">
-          Connect immediately with our WhatsApp team for ID registration, rapid payouts, and live match trading.
+          Connect directly with our verified 24/7 WhatsApp team for account queries, platform guidance, and live match support.
         </p>
       </div>
 

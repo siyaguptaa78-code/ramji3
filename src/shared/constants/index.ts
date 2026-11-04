@@ -6,14 +6,14 @@ export const WHATSAPP_LINK = 'https://wa.me/918360750829';
 export const SITE_CONFIGS: Record<string, SiteConfig> = {
   ramji2: {
     id: 'ramji2',
-    name: 'Ramji2',
+    name: 'RAMJI247',
     brandNumber: '2',
-    tagline: "India's Premier Sports Betting Exchange & Live Casino",
-    description: "Experience the royal standard of sports exchange & live dealer gaming with Ramji2. Get an Instant ID in 60 seconds on WhatsApp with 24/7 dedicated support.",
-    domain: 'https://ramji2.com',
+    tagline: "Online Cricket ID & Sports Exchange Information",
+    description: "Explore RAMJI247 online cricket ID guides, live sports exchange markets, and instant WhatsApp support available 24/7.",
+    domain: 'https://ramji247id.com',
     whatsappNumber: WHATSAPP_NUMBER,
     whatsappUrl: WHATSAPP_LINK,
-    defaultWhatsAppMessage: 'Hello Ramji2 Support, I would like to get an Instant ID & Demo details.',
+    defaultWhatsAppMessage: 'Hello RAMJI247 Support, I would like account and demo details.',
     theme: {
       primary: '#f59e0b', // Luxury Amber Gold
       primaryHover: '#d97706',
@@ -35,12 +35,12 @@ export const SITE_CONFIGS: Record<string, SiteConfig> = {
     id: 'ramji3',
     name: 'RAMJI247',
     brandNumber: '3',
-    tagline: 'Live Cricket Odds, Real-Time Ball-by-Ball Match Updates & In-Play Exchange',
-    description: 'Ultra-fast in-play cricket odds, live match score updates, and seamless WhatsApp access on RAMJI247 Live.',
+    tagline: 'Live Cricket Updates, Match Odds & In-Play Exchange',
+    description: 'Follow live cricket match updates, ball-by-ball in-play market information, tournament schedules, and 24/7 WhatsApp support on RAMJI247.',
     domain: 'https://ramji247cricket.live',
     whatsappNumber: WHATSAPP_NUMBER,
     whatsappUrl: WHATSAPP_LINK,
-    defaultWhatsAppMessage: 'Hello Ramji3 Team, please provide me with an Instant ID and active bonus information.',
+    defaultWhatsAppMessage: 'Hello RAMJI247 Support, please provide live match and account information.',
     theme: {
       primary: '#10b981', // Cyber Emerald
       primaryHover: '#059669',
@@ -60,14 +60,14 @@ export const SITE_CONFIGS: Record<string, SiteConfig> = {
   },
   ramji4: {
     id: 'ramji4',
-    name: 'Ramji4',
+    name: 'RAMJI247',
     brandNumber: '4',
-    tagline: 'The Ultimate Sports Exchange & Real-Time Trading Arena',
-    description: 'Precision sports trading and exchange liquidity at Ramji4. Back and Lay cricket leagues, football cups, and live casino with 1-click WhatsApp onboarding.',
-    domain: 'https://ramji4.com',
+    tagline: 'IPL Match Schedule, Tournament Guides & Exchange Arena',
+    description: 'Access IPL tournament schedules, team guides, live match markets, and 24/7 WhatsApp onboarding support with RAMJI247.',
+    domain: 'https://ramji247ipl.com',
     whatsappNumber: WHATSAPP_NUMBER,
     whatsappUrl: WHATSAPP_LINK,
-    defaultWhatsAppMessage: 'Hi Ramji4 Support, I want to open an Exchange Account with demo login.',
+    defaultWhatsAppMessage: 'Hi RAMJI247 Support, I want tournament and exchange account details.',
     theme: {
       primary: '#38bdf8', // Electric Sky Blue
       primaryHover: '#0284c7',
@@ -87,14 +87,14 @@ export const SITE_CONFIGS: Record<string, SiteConfig> = {
   },
   ramji5: {
     id: 'ramji5',
-    name: 'Ramji5',
+    name: 'RAMJI247',
     brandNumber: '5',
-    tagline: 'Exclusive High-Roller VIP Lounge & Global Gaming Suite',
-    description: 'Step into luxury with Ramji5. Elite sports coverage, private high-limit tables, and concierge service on WhatsApp 24/7.',
-    domain: 'https://ramji5.com',
+    tagline: 'Online Casino, Live Dealer & Sports Exchange',
+    description: 'Explore RAMJI247 online casino guides, Teen Patti, Andar Bahar, live dealer tables, and sports exchange information with 24/7 WhatsApp support.',
+    domain: 'https://ramji247online.com',
     whatsappNumber: WHATSAPP_NUMBER,
     whatsappUrl: WHATSAPP_LINK,
-    defaultWhatsAppMessage: 'Greetings Ramji5 VIP Desk, please send me my VIP Access and ID details.',
+    defaultWhatsAppMessage: 'Greetings RAMJI247 Support, please share VIP casino and account details.',
     theme: {
       primary: '#e11d48', // Royal Ruby Red
       primaryHover: '#be123c',
@@ -107,9 +107,9 @@ export const SITE_CONFIGS: Record<string, SiteConfig> = {
     },
     features: [
       { title: 'Elite VIP Limits', description: 'Higher betting limits and personalized stakes tailored for high-rollers.', icon: 'Crown' },
-      { title: 'VIP WhatsApp Concierge', description: 'Direct personal manager on WhatsApp with priority queue priority.', icon: 'Star' },
-      { title: 'Exclusive Jackpots', description: 'Access to special daily prize pools and progressive high-roller games.', icon: 'Trophy' },
-      { title: 'Instant 24/7 Settlements', description: 'Round-the-clock priority withdrawal processing within minutes.', icon: 'ShieldCheck' },
+      { title: 'VIP WhatsApp Concierge', description: 'Direct personal manager on WhatsApp with priority queue assistance.', icon: 'Star' },
+      { title: 'Exclusive Live Tables', description: 'Access to private live dealer rooms and classic Indian card games.', icon: 'Trophy' },
+      { title: 'Rapid 24/7 Settlements', description: 'Round-the-clock priority withdrawal processing via UPI and IMPS.', icon: 'ShieldCheck' },
     ]
   }
 };

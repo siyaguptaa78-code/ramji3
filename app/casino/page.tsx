@@ -70,6 +70,7 @@ export default function CasinoPage() {
         ))}
       </div>
 
+      <h2 className="sr-only">Available Live Casino &amp; Crash Games</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
         {filteredGames.map((game) => (
           <CasinoCard

@@ -10,11 +10,11 @@ interface HeaderLogoProps {
 
 export const HeaderLogo: React.FC<HeaderLogoProps> = ({ siteName, brandNumber, className = '' }) => {
   return (
-    <Link href="/" className={`flex items-center gap-2 group transition-transform duration-200 hover:scale-[1.02] ${className}`} aria-label={`$LIVE CRICKET Home`}>
+    <Link href="/" className={`flex items-center gap-2 group transition-transform duration-200 hover:scale-[1.02] ${className}`} aria-label={`${siteName} Home`}>
       <div className="relative flex items-center">
         <Image
           src="/images/logo.png"
-          alt={`$LIVE CRICKET Official Logo`}
+          alt={`${siteName} Official Logo`}
           width={220}
           height={48}
           priority

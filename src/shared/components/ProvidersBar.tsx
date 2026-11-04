@@ -13,13 +13,13 @@ export const ProvidersBar: React.FC = () => {
   ];
 
   return (
-    <div className="w-full py-8 border-y border-white/5 bg-neutral-950/60">
+    <section className="w-full py-8 border-y border-white/5 bg-neutral-950/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between mb-4">
-          <span className="text-xs font-bold uppercase tracking-wider text-neutral-400 flex items-center gap-1.5">
+          <h2 className="text-xs font-bold uppercase tracking-wider text-neutral-400 flex items-center gap-1.5">
             <ShieldCheck size={14} className="text-emerald-400" />
             Certified Official Game & Liquidity Providers
-          </span>
+          </h2>
           <span className="text-[11px] text-neutral-500 hidden sm:inline">100% Licensed RNG & Verified Fairness</span>
         </div>
 
@@ -35,7 +35,7 @@ export const ProvidersBar: React.FC = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

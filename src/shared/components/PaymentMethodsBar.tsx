@@ -16,10 +16,10 @@ export const PaymentMethodsBar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-6">
           <div>
-            <h3 className="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
+            <h2 className="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
               <Zap size={16} className="text-amber-400" />
               Instant Payment & Rapid Withdrawal Gateway
-            </h3>
+            </h2>
             <p className="text-xs text-neutral-400 mt-0.5">
               Direct deposit & withdrawal processing with 0% commission. Available 24/7/365.
             </p>

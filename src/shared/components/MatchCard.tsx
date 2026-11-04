@@ -43,6 +43,7 @@ export const MatchCard: React.FC<MatchCardProps> = ({
       {/* Match Teams & Live Score */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 items-center mb-4">
         <div className="space-y-1.5">
+          <h3 className="sr-only">{match.team1} vs {match.team2} ({match.league})</h3>
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-blue-500" />

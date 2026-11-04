@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Live Cricket WhatsApp Helpline Desk",
-  description: "Direct 24/7 WhatsApp assistance for live match odds, immediate ID delivery, and active match support.",
-  keywords: ["live match support whatsapp","cricket id instant help","RAMJI247 live contact"],
+  title: "24/7 Official WhatsApp Support & Helpline",
+  description: "Contact the official RAMJI247 24/7 WhatsApp helpline (+91 8360750829) for live match inquiries, account assistance, and user support.",
+  keywords: ["ramji247 whatsapp support","live cricket support desk","RAMJI247 contact"],
   alternates: {
     canonical: "https://ramji247cricket.live/contact",
   },
   openGraph: {
-    title: "Live Cricket WhatsApp Helpline Desk | RAMJI247",
-    description: "Direct 24/7 WhatsApp assistance for live match odds, immediate ID delivery, and active match support.",
+    title: "24/7 Official WhatsApp Support & Helpline | RAMJI247",
+    description: "Contact the official RAMJI247 24/7 WhatsApp helpline (+91 8360750829) for live match inquiries, account assistance, and user support.",
     url: "https://ramji247cricket.live/contact",
     siteName: "RAMJI247",
     images: [
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Live Cricket WhatsApp Helpline Desk | RAMJI247",
-    description: "Direct 24/7 WhatsApp assistance for live match odds, immediate ID delivery, and active match support.",
+    title: "24/7 Official WhatsApp Support & Helpline | RAMJI247",
+    description: "Contact the official RAMJI247 24/7 WhatsApp helpline (+91 8360750829) for live match inquiries, account assistance, and user support.",
     images: ['/images/logo.png'],
   },
 };

@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Match-Day Boosts & Live Bonuses",
-  description: "Exclusive match-day odds boosts, deposit reload promotions, and live in-play perks on RAMJI247 Live.",
-  keywords: ["live cricket odds boost","matchday bonus","RAMJI247 live promo"],
+  title: "Match-Day Promotions & Weekly Rewards",
+  description: "Review active RAMJI247 match-day promotions, welcome bonus structures, and weekly in-play reward terms via our 24/7 WhatsApp desk.",
+  keywords: ["ramji247 promotions","matchday bonus offers","RAMJI247 rewards"],
   alternates: {
     canonical: "https://ramji247cricket.live/promotions",
   },
   openGraph: {
-    title: "Match-Day Boosts & Live Bonuses | RAMJI247",
-    description: "Exclusive match-day odds boosts, deposit reload promotions, and live in-play perks on RAMJI247 Live.",
+    title: "Match-Day Promotions & Weekly Rewards | RAMJI247",
+    description: "Review active RAMJI247 match-day promotions, welcome bonus structures, and weekly in-play reward terms via our 24/7 WhatsApp desk.",
     url: "https://ramji247cricket.live/promotions",
     siteName: "RAMJI247",
     images: [
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Match-Day Boosts & Live Bonuses | RAMJI247",
-    description: "Exclusive match-day odds boosts, deposit reload promotions, and live in-play perks on RAMJI247 Live.",
+    title: "Match-Day Promotions & Weekly Rewards | RAMJI247",
+    description: "Review active RAMJI247 match-day promotions, welcome bonus structures, and weekly in-play reward terms via our 24/7 WhatsApp desk.",
     images: ['/images/logo.png'],
   },
 };

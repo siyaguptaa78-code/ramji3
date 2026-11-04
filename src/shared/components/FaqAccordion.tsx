@@ -60,9 +60,9 @@ export const FaqAccordion: React.FC<FaqAccordionProps> = ({
                 className="w-full flex items-center justify-between p-4 sm:p-5 text-left text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
                 aria-expanded={isOpen}
               >
-                <span className="font-semibold text-sm sm:text-base pr-4">
+                <h3 className="font-semibold text-sm sm:text-base pr-4">
                   {faq.question}
-                </span>
+                </h3>
                 <ChevronDown
                   className={`w-5 h-5 shrink-0 text-neutral-400 transition-transform duration-300 ${
                     isOpen ? 'rotate-180 text-white' : ''
@@ -70,11 +70,15 @@ export const FaqAccordion: React.FC<FaqAccordionProps> = ({
                 />
               </button>
 
-              {isOpen && (
-                <div className="px-4 pb-5 sm:px-5 text-xs sm:text-sm text-neutral-300 leading-relaxed border-t border-white/5 pt-3 animate-fadeIn">
-                  {faq.answer}
-                </div>
-              )}
+              <div
+                className={
+                  isOpen
+                    ? 'px-4 pb-5 sm:px-5 text-xs sm:text-sm text-neutral-300 leading-relaxed border-t border-white/5 pt-3 animate-fadeIn'
+                    : 'hidden'
+                }
+              >
+                {faq.answer}
+              </div>
             </div>
           );
         })}

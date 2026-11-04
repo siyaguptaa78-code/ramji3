@@ -21,7 +21,7 @@ export const Footer: React.FC<FooterProps> = ({ siteName, brandNumber, tagline }
               <MessageCircle className="w-6 h-6" />
             </div>
             <div>
-              <h3 className="text-sm sm:text-base font-bold text-white">Need an Instant ID or Immediate Support?</h3>
+              <h2 className="text-sm sm:text-base font-bold text-white">Need an Instant ID or Immediate Support?</h2>
               <p className="text-xs text-neutral-400">Official 24/7 WhatsApp customer desk. Average response time: 15 seconds.</p>
             </div>
           </div>
@@ -45,7 +45,7 @@ export const Footer: React.FC<FooterProps> = ({ siteName, brandNumber, tagline }
           <div className="lg:col-span-2 space-y-4">
             <FooterLogo siteName={siteName} />
             <p className="text-xs text-neutral-400 leading-relaxed max-w-sm">
-              {tagline}. Providing cutting-edge sports odds, live cricket exchange, authentic live dealer suites, and verified instant ID services on WhatsApp.
+              {tagline}. Providing sports exchange market guides, live cricket updates, live dealer game information, and verified 24/7 customer support on WhatsApp.
             </p>
             <div className="flex items-center gap-3 text-neutral-300 pt-2">
               <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-neutral-900 border border-neutral-800 text-[11px] font-semibold text-emerald-400">
@@ -65,39 +65,34 @@ export const Footer: React.FC<FooterProps> = ({ siteName, brandNumber, tagline }
 
           {/* Col 2: Sports & Exchange */}
           <div>
-            <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-3">Sports Exchange</h4>
+            <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-3">Sports Exchange</h3>
             <ul className="space-y-2 text-xs">
-              <li><Link href="/sports" className="hover:text-white transition-colors">Cricket Exchange (IPL / ICC)</Link></li>
-              <li><Link href="/sports" className="hover:text-white transition-colors">Football (EPL / Champions League)</Link></li>
-              <li><Link href="/sports" className="hover:text-white transition-colors">Tennis (Grand Slams)</Link></li>
-              <li><Link href="/sports" className="hover:text-white transition-colors">Pro Kabaddi League</Link></li>
-              <li><Link href="/sports" className="hover:text-white transition-colors">Horse Racing</Link></li>
-              <li><Link href="/sports" className="hover:text-white transition-colors">Virtual Sports In-Play</Link></li>
+              <li><Link href="/sports" className="hover:text-white transition-colors">All Sports Exchange Markets</Link></li>
+              <li><Link href="/sports#live" className="hover:text-white transition-colors">Live In-Play Fixtures</Link></li>
+              <li><Link href="/sports#cricket" className="hover:text-white transition-colors">Cricket & Tournament Odds</Link></li>
+              <li><Link href="/sports#football" className="hover:text-white transition-colors">Football & Tennis Markets</Link></li>
             </ul>
           </div>
 
           {/* Col 3: Live Casino */}
           <div>
-            <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-3">Live Casino</h4>
+            <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-3">Live Casino</h3>
             <ul className="space-y-2 text-xs">
-              <li><Link href="/casino" className="hover:text-white transition-colors">Teen Patti Live 20-20</Link></li>
-              <li><Link href="/casino" className="hover:text-white transition-colors">Andar Bahar Pro</Link></li>
-              <li><Link href="/casino" className="hover:text-white transition-colors">Lightning Roulette</Link></li>
-              <li><Link href="/casino" className="hover:text-white transition-colors">Aviator Crash Games</Link></li>
-              <li><Link href="/casino" className="hover:text-white transition-colors">Crazy Time & Game Shows</Link></li>
-              <li><Link href="/casino" className="hover:text-white transition-colors">Dragon Tiger Live</Link></li>
+              <li><Link href="/casino" className="hover:text-white transition-colors">All Live Casino Tables</Link></li>
+              <li><Link href="/casino#indian" className="hover:text-white transition-colors">Teen Patti & Andar Bahar</Link></li>
+              <li><Link href="/casino#live-casino" className="hover:text-white transition-colors">Roulette & Live Game Shows</Link></li>
+              <li><Link href="/casino#crash" className="hover:text-white transition-colors">Aviator & Instant Crash Games</Link></li>
             </ul>
           </div>
 
           {/* Col 4: Trust & Support */}
           <div>
-            <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-3">Trust & Support</h4>
+            <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-3">Trust & Support</h3>
             <ul className="space-y-2 text-xs">
-              <li><Link href="/contact" className="hover:text-white transition-colors">Official WhatsApp Desk</Link></li>
-              <li><Link href="/promotions" className="hover:text-white transition-colors">VIP Rewards & Bonuses</Link></li>
+              <li><Link href="/contact" className="hover:text-white transition-colors">24/7 Official WhatsApp Desk</Link></li>
+              <li><Link href="/promotions" className="hover:text-white transition-colors">VIP Rewards & Offers</Link></li>
               <li><Link href="/responsible-gaming" className="hover:text-white transition-colors">Responsible Gaming (18+)</Link></li>
-              <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Information</Link></li>
-              <li><a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="text-emerald-400 font-bold hover:underline">Instant WhatsApp Demo</a></li>
+              <li><Link href="/terms" className="hover:text-white transition-colors">Terms & Informational Scope</Link></li>
             </ul>
           </div>
         </div>

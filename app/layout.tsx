@@ -6,7 +6,8 @@ import {
   WhatsAppFloatingButton, 
   LiveTicker, 
   JsonLd,
-  SITE_CONFIGS 
+  SITE_CONFIGS,
+  GENERAL_FAQS
 } from '@ramji/shared';
 
 const config = SITE_CONFIGS.ramji3;
@@ -14,20 +15,19 @@ const config = SITE_CONFIGS.ramji3;
 export const metadata: Metadata = {
   metadataBase: new URL('https://ramji247cricket.live'),
   title: {
-    default: "RAMJI247 | Live Cricket Odds, Real-Time Ball-by-Ball Match Updates & In-Play Exchange",
+    default: "RAMJI247 | Live Cricket Updates, Match Odds & Exchange",
     template: "%s | RAMJI247",
   },
   description: config.description,
-  keywords:   [
-      "RAMJI247 Live",
-      "Live Cricket Match Information",
-      "Live Cricket Scores & Odds",
-      "In-Play Cricket Trading",
-      "T20 World Cup Live Rates",
-      "Ball by Ball Match Exchange",
-      "Live Cricket Rates",
-      "Cricket ID Live In-Play",
-      "Real Time Match Odds"
+  keywords: [
+    "RAMJI247",
+    "RAMJI247 Live Cricket",
+    "Live Cricket Match Updates",
+    "Live Cricket Odds & Exchange",
+    "In-Play Cricket Markets",
+    "T20 Live Match Rates",
+    "Ball by Ball Cricket Updates",
+    "RAMJI247 WhatsApp Support"
   ],
   authors: [{ name: config.name }],
   creator: config.name,
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     google: 'jj2-4tEzlZA3Bi_8gYa5XBKNTiVhSMglfm0Dj-u3qsI',
   },
   openGraph: {
-    title: `${config.name} | Next-Gen Sportsbook & Turbo Casino`,
+    title: "RAMJI247 | Live Cricket Updates, Match Odds & Exchange",
     description: config.description,
     url: config.domain,
     siteName: config.name,
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${config.name} | Fast Live Sports Odds on WhatsApp`,
+    title: "RAMJI247 | Live Cricket Updates, Match Odds & Exchange",
     description: config.description,
     images: ['/images/logo.png'],
   },
@@ -108,6 +108,18 @@ export default function RootLayout({
           'contactType': 'customer service',
           'availableLanguage': ['English', 'Hindi']
         }
+      },
+      {
+        '@type': 'FAQPage',
+        '@id': `${config.domain}/#faq`,
+        'mainEntity': GENERAL_FAQS.map((faq) => ({
+          '@type': 'Question',
+          'name': faq.question,
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': faq.answer,
+          },
+        })),
       }
     ]
   };
@@ -118,7 +130,7 @@ export default function RootLayout({
         <JsonLd data={jsonLdData} />
       </head>
       <body className="bg-[#060e12] text-neutral-100 flex flex-col min-h-screen antialiased selection:bg-emerald-500 selection:text-black">
-        <LiveTicker badgeText="RAMJI3 IN-PLAY" />
+        <LiveTicker badgeText="RAMJI247 LIVE IN-PLAY" />
         <Navbar 
           siteName={config.name} 
           brandNumber={config.brandNumber}

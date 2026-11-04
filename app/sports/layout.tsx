@@ -2,14 +2,14 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Live In-Play Cricket & Sports Match Odds",
-  description: "Track real-time ball-by-ball odds and live match sessions across all international and domestic cricket tournaments.",
-  keywords: ["live in-play odds","cricket match session rates","live cricket trading"],
+  description: "Track real-time ball-by-ball cricket updates, live match sessions, and multi-sport exchange odds across global tournaments on RAMJI247.",
+  keywords: ["live in-play cricket odds","cricket match session rates","ramji247 sports exchange"],
   alternates: {
     canonical: "https://ramji247cricket.live/sports",
   },
   openGraph: {
     title: "Live In-Play Cricket & Sports Match Odds | RAMJI247",
-    description: "Track real-time ball-by-ball odds and live match sessions across all international and domestic cricket tournaments.",
+    description: "Track real-time ball-by-ball cricket updates, live match sessions, and multi-sport exchange odds across global tournaments on RAMJI247.",
     url: "https://ramji247cricket.live/sports",
     siteName: "RAMJI247",
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "Live In-Play Cricket & Sports Match Odds | RAMJI247",
-    description: "Track real-time ball-by-ball odds and live match sessions across all international and domestic cricket tournaments.",
+    description: "Track real-time ball-by-ball cricket updates, live match sessions, and multi-sport exchange odds across global tournaments on RAMJI247.",
     images: ['/images/logo.png'],
   },
 };
