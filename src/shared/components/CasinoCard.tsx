@@ -24,9 +24,10 @@ export const CasinoCard: React.FC<CasinoCardProps> = ({
         <Image
           src={game.image}
           alt={`${game.name} by ${game.provider}`}
-          fill
+          width={400}
+          height={300}
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-110"
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
         
         {/* Dark Vignette Overlay */}

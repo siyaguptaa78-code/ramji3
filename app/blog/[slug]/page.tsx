@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const post = RAMJI3_BLOG_POSTS.find((p) => p.slug === params.slug);
   if (!post) return {};
 
-  const postUrl = `https://ramji247cricket.live/blog/${post.slug}`;
+  const postUrl = `https://www.ramji247cricket.live/blog/${post.slug}`;
 
   return {
     title: post.metaTitle,
@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       authors: [post.author],
       images: [
         {
-          url: `https://ramji247cricket.live${post.heroImage}`,
+          url: `https://www.ramji247cricket.live${post.heroImage}`,
           width: 1200,
           height: 630,
           alt: post.title,
@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: 'summary_large_image',
       title: `${post.metaTitle} | RAMJI247`,
       description: post.metaDescription,
-      images: [`https://ramji247cricket.live${post.heroImage}`],
+      images: [`https://www.ramji247cricket.live${post.heroImage}`],
     },
   };
 }
@@ -63,7 +63,7 @@ export default function ArticlePage({ params }: PageProps) {
   if (!post) notFound();
 
   const otherPosts = RAMJI3_BLOG_POSTS.filter((p) => p.slug !== post.slug);
-  const postUrl = `https://ramji247cricket.live/blog/${post.slug}`;
+  const postUrl = `https://www.ramji247cricket.live/blog/${post.slug}`;
 
   const jsonLdData = {
     '@context': 'https://schema.org',
@@ -73,21 +73,21 @@ export default function ArticlePage({ params }: PageProps) {
         '@id': `${postUrl}#article`,
         headline: post.title,
         description: post.metaDescription,
-        image: `https://ramji247cricket.live${post.heroImage}`,
+        image: `https://www.ramji247cricket.live${post.heroImage}`,
         datePublished: '2026-11-18T00:00:00+05:30',
         dateModified: '2026-11-18T00:00:00+05:30',
         author: {
           '@type': 'Organization',
           name: post.author,
-          url: 'https://ramji247cricket.live',
+          url: 'https://www.ramji247cricket.live',
         },
         publisher: {
           '@type': 'Organization',
           name: 'RAMJI247',
-          url: 'https://ramji247cricket.live',
+          url: 'https://www.ramji247cricket.live',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://ramji247cricket.live/images/logo.png',
+            url: 'https://www.ramji247cricket.live/images/logo.png',
           },
         },
         mainEntityOfPage: {
@@ -103,13 +103,13 @@ export default function ArticlePage({ params }: PageProps) {
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://ramji247cricket.live',
+            item: 'https://www.ramji247cricket.live',
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Blog',
-            item: 'https://ramji247cricket.live/blog',
+            item: 'https://www.ramji247cricket.live/blog',
           },
           {
             '@type': 'ListItem',

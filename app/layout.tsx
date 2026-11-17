@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import { 
-  Navbar, 
-  Footer, 
-  WhatsAppFloatingButton, 
-  LiveTicker, 
+import {
+  Navbar,
+  Footer,
+  WhatsAppFloatingButton,
+  LiveTicker,
   JsonLd,
   SITE_CONFIGS,
   GENERAL_FAQS
@@ -13,7 +13,7 @@ import {
 const config = SITE_CONFIGS.ramji3;
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ramji247cricket.live'),
+  metadataBase: new URL('https://www.ramji247cricket.live'),
   title: {
     default: "RAMJI247 | Live Cricket Updates, Match Odds & Exchange",
     template: "%s | RAMJI247",
@@ -127,33 +127,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        {/* Google Tag Manager */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WLGW7WZV');`,
-          }}
-        />
-        {/* End Google Tag Manager */}
         <JsonLd data={jsonLdData} />
       </head>
       <body className="bg-[#060e12] text-neutral-100 flex flex-col min-h-screen antialiased selection:bg-emerald-500 selection:text-black">
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-WLGW7WZV"
-            height="0"
-            width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
-          />
-        </noscript>
-        {/* End Google Tag Manager (noscript) */}
         <LiveTicker badgeText="RAMJI247 LIVE IN-PLAY" />
-        <Navbar 
-          siteName={config.name} 
+        <Navbar
+          siteName={config.name}
           brandNumber={config.brandNumber}
           accentColor="text-emerald-400 border-emerald-500/30"
           badgeStyle="bg-emerald-500/10 text-emerald-400"
@@ -161,14 +140,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <main className="flex-1 w-full">
           {children}
         </main>
-        <Footer 
-          siteName={config.name} 
-          brandNumber={config.brandNumber} 
-          tagline={config.tagline} 
+        <Footer
+          siteName={config.name}
+          brandNumber={config.brandNumber}
+          tagline={config.tagline}
         />
-        <WhatsAppFloatingButton 
-          siteName={config.name} 
-          customMessage={config.defaultWhatsAppMessage} 
+        <WhatsAppFloatingButton
+          siteName={config.name}
+          customMessage={config.defaultWhatsAppMessage}
         />
       </body>
     </html>

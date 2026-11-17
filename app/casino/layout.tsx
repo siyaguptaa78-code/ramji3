@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description: "Explore live dealer Teen Patti, Andar Bahar, Roulette, and Spribe Aviator crash games on RAMJI247 with 24/7 WhatsApp support.",
   keywords: ["ramji247 live casino","aviator crash game","teen patti live tables"],
   alternates: {
-    canonical: "https://ramji247cricket.live/casino",
+    canonical: "https://www.ramji247cricket.live/casino",
   },
   openGraph: {
     title: "Live Casino, Teen Patti & Crash Games | RAMJI247",
     description: "Explore live dealer Teen Patti, Andar Bahar, Roulette, and Spribe Aviator crash games on RAMJI247 with 24/7 WhatsApp support.",
-    url: "https://ramji247cricket.live/casino",
+    url: "https://www.ramji247cricket.live/casino",
     siteName: "RAMJI247",
     images: [
       {

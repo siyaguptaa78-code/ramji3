@@ -23,7 +23,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/private/', '/api/'],
       },
     ],
-    sitemap: 'https://ramji247cricket.live/sitemap.xml',
+    sitemap: 'https://www.ramji247cricket.live/sitemap.xml',
   };
 }
 

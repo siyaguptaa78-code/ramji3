@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description: "Contact the official RAMJI247 24/7 WhatsApp helpline (+91 8360750829) for live match inquiries, account assistance, and user support.",
   keywords: ["ramji247 whatsapp support","live cricket support desk","RAMJI247 contact"],
   alternates: {
-    canonical: "https://ramji247cricket.live/contact",
+    canonical: "https://www.ramji247cricket.live/contact",
   },
   openGraph: {
     title: "24/7 Official WhatsApp Support & Helpline | RAMJI247",
     description: "Contact the official RAMJI247 24/7 WhatsApp helpline (+91 8360750829) for live match inquiries, account assistance, and user support.",
-    url: "https://ramji247cricket.live/contact",
+    url: "https://www.ramji247cricket.live/contact",
     siteName: "RAMJI247",
     images: [
       {

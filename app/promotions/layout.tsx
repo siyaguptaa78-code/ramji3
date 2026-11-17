@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description: "Review active RAMJI247 match-day promotions, welcome bonus structures, and weekly in-play reward terms via our 24/7 WhatsApp desk.",
   keywords: ["ramji247 promotions","matchday bonus offers","RAMJI247 rewards"],
   alternates: {
-    canonical: "https://ramji247cricket.live/promotions",
+    canonical: "https://www.ramji247cricket.live/promotions",
   },
   openGraph: {
     title: "Match-Day Promotions & Weekly Rewards | RAMJI247",
     description: "Review active RAMJI247 match-day promotions, welcome bonus structures, and weekly in-play reward terms via our 24/7 WhatsApp desk.",
-    url: "https://ramji247cricket.live/promotions",
+    url: "https://www.ramji247cricket.live/promotions",
     siteName: "RAMJI247",
     images: [
       {

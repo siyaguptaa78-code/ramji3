@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description: "Learn about RAMJI247 18+ responsible gaming guidelines, session limits, bankroll discipline, and WhatsApp self-exclusion options.",
   keywords: ["ramji247 responsible gaming","18+ safe play policy","self exclusion whatsapp"],
   alternates: {
-    canonical: "https://ramji247cricket.live/responsible-gaming",
+    canonical: "https://www.ramji247cricket.live/responsible-gaming",
   },
   openGraph: {
     title: "Responsible Gaming & 18+ Safe Play Policy | RAMJI247",
     description: "Learn about RAMJI247 18+ responsible gaming guidelines, session limits, bankroll discipline, and WhatsApp self-exclusion options.",
-    url: "https://ramji247cricket.live/responsible-gaming",
+    url: "https://www.ramji247cricket.live/responsible-gaming",
     siteName: "RAMJI247",
     images: [
       {

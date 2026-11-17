@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description: "Track real-time ball-by-ball cricket updates, live match sessions, and multi-sport exchange odds across global tournaments on RAMJI247.",
   keywords: ["live in-play cricket odds","cricket match session rates","ramji247 sports exchange"],
   alternates: {
-    canonical: "https://ramji247cricket.live/sports",
+    canonical: "https://www.ramji247cricket.live/sports",
   },
   openGraph: {
     title: "Live In-Play Cricket & Sports Match Odds | RAMJI247",
     description: "Track real-time ball-by-ball cricket updates, live match sessions, and multi-sport exchange odds across global tournaments on RAMJI247.",
-    url: "https://ramji247cricket.live/sports",
+    url: "https://www.ramji247cricket.live/sports",
     siteName: "RAMJI247",
     images: [
       {
