@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#060e12"/>
+  <rect x="40" y="40" width="1120" height="550" rx="16" fill="#0b171c" stroke="#162e38"/>
+  <text x="80" y="90" font-family="'Montserrat', sans-serif" font-weight="900" font-size="28" fill="#10b981">RAMJI247 CRICKET • TEST ANALYTICS</text>
+  <text x="80" y="130" font-family="'Montserrat', sans-serif" font-weight="800" font-size="34" fill="#ffffff">ICC World Test Championship: Points Calculation Formula</text>
+  <text x="80" y="160" font-family="'Poppins', sans-serif" font-size="16" fill="#94a3b8">Understanding the PCT% system, match points weightage, and penalty deductions.</text>
+
+  <!-- Formula Box -->
+  <rect x="80" y="200" width="1040" height="120" rx="12" fill="#042f2e" stroke="#10b981" stroke-width="2"/>
+  <text x="120" y="245" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#a7f3d0">THE OFFICIAL ICC STANDINGS METRIC: PERCENTAGE OF POINTS (PCT)</text>
+  <text x="120" y="285" font-family="'Montserrat', sans-serif" font-weight="900" font-size="26" fill="#ffffff">PCT (%) = (Total Points Earned ÷ Total Points Contested) × 100</text>
+
+  <!-- Match Allocations -->
+  <rect x="80" y="340" width="330" height="200" rx="10" fill="#0f232b" stroke="#059669"/>
+  <text x="100" y="375" font-family="'Montserrat', sans-serif" font-weight="800" font-size="15" fill="#34d399">MATCH ALLOCATION (12 PTS)</text>
+  <text x="100" y="415" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">• Win: 12 Points (100% of contested)</text>
+  <text x="100" y="445" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">• Tie: 6 Points (50% of contested)</text>
+  <text x="100" y="475" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">• Draw: 4 Points (33.3% of contested)</text>
+  <text x="100" y="505" font-family="'Poppins', sans-serif" font-size="14" fill="#94a3b8">• Loss: 0 Points (0% of contested)</text>
+
+  <rect x="435" y="340" width="330" height="200" rx="10" fill="#0f232b" stroke="#f59e0b"/>
+  <text x="455" y="375" font-family="'Montserrat', sans-serif" font-weight="800" font-size="15" fill="#fbbf24">SERIES EQUALITY</text>
+  <text x="455" y="415" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">• 2-Match Series: 24 Contested Pts</text>
+  <text x="455" y="445" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">• 3-Match Series: 36 Contested Pts</text>
+  <text x="455" y="475" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">• 5-Match Series: 60 Contested Pts</text>
+  <text x="455" y="505" font-family="'Poppins', sans-serif" font-size="13" fill="#cbd5e1">PCT normalizes varying series lengths</text>
+
+  <rect x="790" y="340" width="330" height="200" rx="10" fill="#0f232b" stroke="#ef4444"/>
+  <text x="810" y="375" font-family="'Montserrat', sans-serif" font-weight="800" font-size="15" fill="#f87171">OVER-RATE PENALTIES</text>
+  <text x="810" y="415" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">• 1 WTC Point deducted per over short</text>
+  <text x="810" y="445" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">• Can drop team 1.5% - 3.0% in PCT</text>
+  <text x="810" y="475" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">• Frequently costs final qualification</text>
+  <text x="810" y="505" font-family="'Poppins', sans-serif" font-size="13" fill="#fca5a5">Decisive in close race margins</text>
+</svg>

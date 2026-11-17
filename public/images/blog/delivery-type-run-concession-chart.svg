@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350">
+  <rect width="800" height="350" fill="#060e12"/>
+  <text x="40" y="45" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#10b981">Expected Runs Conceded by Delivery Type (Overs 16-20)</text>
+  <text x="40" y="70" font-family="'Poppins', sans-serif" font-size="13" fill="#94a3b8">Statistical run concession per 6 deliveries (over benchmark).</text>
+
+  <rect x="40" y="100" width="720" height="40" rx="4" fill="#0f232b"/>
+  <text x="50" y="125" font-family="'Poppins', sans-serif" font-size="13" fill="#ffffff">Wide Yorker Outside Off</text>
+  <rect x="250" y="110" width="210" height="20" rx="3" fill="#10b981"/>
+  <text x="475" y="125" font-family="'Montserrat', sans-serif" font-weight="800" font-size="13" fill="#34d399">5.52 RPO (0.92/ball)</text>
+
+  <rect x="40" y="150" width="720" height="40" rx="4" fill="#0f232b"/>
+  <text x="50" y="175" font-family="'Poppins', sans-serif" font-size="13" fill="#ffffff">Stump Yorker</text>
+  <rect x="250" y="160" width="245" height="20" rx="3" fill="#059669"/>
+  <text x="510" y="175" font-family="'Montserrat', sans-serif" font-weight="800" font-size="13" fill="#34d399">6.48 RPO (1.08/ball)</text>
+
+  <rect x="40" y="200" width="720" height="40" rx="4" fill="#0f232b"/>
+  <text x="50" y="225" font-family="'Poppins', sans-serif" font-size="13" fill="#ffffff">Off-Cutter Back-of-Length</text>
+  <rect x="250" y="210" width="290" height="20" rx="3" fill="#f59e0b"/>
+  <text x="555" y="225" font-family="'Montserrat', sans-serif" font-weight="800" font-size="13" fill="#fbbf24">7.68 RPO (1.28/ball)</text>
+
+  <rect x="40" y="250" width="720" height="40" rx="4" fill="#0f232b"/>
+  <text x="50" y="275" font-family="'Poppins', sans-serif" font-size="13" fill="#ffffff">Missed Yorker (Slot)</text>
+  <rect x="250" y="260" width="440" height="20" rx="3" fill="#ef4444"/>
+  <text x="700" y="275" font-family="'Montserrat', sans-serif" font-weight="800" font-size="13" fill="#f87171">14.04 RPO</text>
+</svg>

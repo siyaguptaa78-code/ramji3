@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350">
+  <rect width="800" height="350" fill="#060e12"/>
+  <text x="40" y="45" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#10b981">Slow Over-Rate Penalty Mathematical Impact</text>
+  <text x="40" y="70" font-family="'Poppins', sans-serif" font-size="13" fill="#94a3b8">Simulation of 4 penalty point deductions on a 19-Test cycle team.</text>
+
+  <rect x="40" y="100" width="345" height="200" rx="8" fill="#0f232b" stroke="#34d399"/>
+  <text x="60" y="135" font-family="'Montserrat', sans-serif" font-weight="700" font-size="15" fill="#34d399">WITHOUT PENALTIES</text>
+  <text x="60" y="170" font-family="'Poppins', sans-serif" font-size="13" fill="#e2e8f0">• 12 Wins (144 pts), 5 Losses, 2 Draws (8 pts)</text>
+  <text x="60" y="200" font-family="'Poppins', sans-serif" font-size="13" fill="#e2e8f0">• Total Points: 152 / 228 contested</text>
+  <text x="60" y="245" font-family="'Montserrat', sans-serif" font-weight="900" font-size="28" fill="#34d399">66.67% PCT</text>
+  <text x="60" y="275" font-family="'Poppins', sans-serif" font-size="12" fill="#a7f3d0">Comfortable Qualification (#1 Rank)</text>
+
+  <rect x="415" y="100" width="345" height="200" rx="8" fill="#0f232b" stroke="#f87171"/>
+  <text x="435" y="135" font-family="'Montserrat', sans-serif" font-weight="700" font-size="15" fill="#f87171">WITH 8 OVER-RATE PENALTY PTS</text>
+  <text x="435" y="170" font-family="'Poppins', sans-serif" font-size="13" fill="#e2e8f0">• Same 12 Wins, 5 Losses, 2 Draws</text>
+  <text x="435" y="200" font-family="'Poppins', sans-serif" font-size="13" fill="#e2e8f0">• Net Points: (152 - 8) = 144 / 228</text>
+  <text x="435" y="245" font-family="'Montserrat', sans-serif" font-weight="900" font-size="28" fill="#f87171">63.15% PCT</text>
+  <text x="435" y="275" font-family="'Poppins', sans-serif" font-size="12" fill="#fca5a5">Dropped from #1 to vulnerable #3</text>
+</svg>

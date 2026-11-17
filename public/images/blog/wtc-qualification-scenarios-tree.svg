@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <rect width="800" height="400" fill="#060e12"/>
+  <text x="40" y="45" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#10b981">WTC Final Qualification PCT Thresholds</text>
+  <text x="40" y="70" font-family="'Poppins', sans-serif" font-size="13" fill="#94a3b8">Historical qualification cut-offs based on 2019-2021, 2021-2023, and current cycle data.</text>
+
+  <rect x="40" y="100" width="720" height="65" rx="8" fill="#0f232b" stroke="#10b981" stroke-width="2"/>
+  <text x="60" y="130" font-family="'Montserrat', sans-serif" font-weight="800" font-size="16" fill="#34d399">SAFE ZONE: &gt; 64.0% PCT</text>
+  <text x="60" y="152" font-family="'Poppins', sans-serif" font-size="13" fill="#e2e8f0">Guarantees a top-two finish in all realistic international scenarios regardless of other results.</text>
+
+  <rect x="40" y="180" width="720" height="65" rx="8" fill="#0f232b" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="60" y="210" font-family="'Montserrat', sans-serif" font-weight="800" font-size="16" fill="#fbbf24">CONTENTION ZONE: 58.0% – 63.9% PCT</text>
+  <text x="60" y="232" font-family="'Poppins', sans-serif" font-size="13" fill="#e2e8f0">Qualification depends heavily on opponent series draws and absence of over-rate deductions.</text>
+
+  <rect x="40" y="260" width="720" height="65" rx="8" fill="#0f232b" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="60" y="290" font-family="'Montserrat', sans-serif" font-weight="800" font-size="16" fill="#f87171">ELIMINATION DANGER: &lt; 55.0% PCT</text>
+  <text x="60" y="312" font-family="'Poppins', sans-serif" font-size="13" fill="#e2e8f0">Historically insufficient to secure Lord's final entry in 9-team competitive cycles.</text>
+</svg>

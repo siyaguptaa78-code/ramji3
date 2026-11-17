@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#060e12"/>
+  <rect x="40" y="40" width="1120" height="550" rx="16" fill="#0b171c" stroke="#162e38"/>
+  <text x="80" y="90" font-family="'Montserrat', sans-serif" font-weight="900" font-size="28" fill="#10b981">RAMJI247 CRICKET • T20 DATA ANALYTICS</text>
+  <text x="80" y="130" font-family="'Montserrat', sans-serif" font-weight="800" font-size="34" fill="#ffffff">Death Overs Pitch Map &amp; Delivery Zone Heat Matrix</text>
+  <text x="80" y="160" font-family="'Poppins', sans-serif" font-size="16" fill="#94a3b8">Expected runs per ball across pitch coordinates in overs 16–20 (data compiled across 10,000+ T20 deliveries).</text>
+
+  <!-- Pitch Representation -->
+  <rect x="80" y="210" width="500" height="330" rx="10" fill="#1a2e26" stroke="#10b981" stroke-width="2"/>
+  <text x="100" y="240" font-family="'Montserrat', sans-serif" font-weight="800" font-size="16" fill="#a7f3d0">PITCH CORRIDORS &amp; RUN EXPECTANCY</text>
+  
+  <!-- Wide Yorker Zone -->
+  <rect x="100" y="270" width="140" height="60" rx="6" fill="#10b981" fill-opacity="0.4" stroke="#34d399"/>
+  <text x="110" y="295" font-family="'Poppins', sans-serif" font-weight="700" font-size="12" fill="#ffffff">WIDE YORKER</text>
+  <text x="110" y="315" font-family="'Poppins', sans-serif" font-size="12" fill="#a7f3d0">0.92 Runs / Ball</text>
+
+  <!-- Stumps Yorker -->
+  <rect x="260" y="270" width="140" height="60" rx="6" fill="#059669" fill-opacity="0.4" stroke="#10b981"/>
+  <text x="270" y="295" font-family="'Poppins', sans-serif" font-weight="700" font-size="12" fill="#ffffff">STUMPS YORKER</text>
+  <text x="270" y="315" font-family="'Poppins', sans-serif" font-size="12" fill="#a7f3d0">1.08 Runs / Ball</text>
+
+  <!-- The Slot (Danger Zone) -->
+  <rect x="180" y="350" width="220" height="80" rx="6" fill="#ef4444" fill-opacity="0.4" stroke="#f87171"/>
+  <text x="200" y="380" font-family="'Montserrat', sans-serif" font-weight="800" font-size="14" fill="#ffffff">THE SLOT (HALF-VOLLEY)</text>
+  <text x="200" y="405" font-family="'Poppins', sans-serif" font-size="13" fill="#fca5a5">2.34 Runs / Ball (38% Boundary)</text>
+
+  <!-- Back of Length Slower -->
+  <rect x="180" y="450" width="220" height="65" rx="6" fill="#f59e0b" fill-opacity="0.4" stroke="#fbbf24"/>
+  <text x="195" y="475" font-family="'Poppins', sans-serif" font-weight="700" font-size="13" fill="#ffffff">OFF-CUTTER (BACK-OF-LENGTH)</text>
+  <text x="195" y="495" font-family="'Poppins', sans-serif" font-size="12" fill="#fde68a">1.28 Runs / Ball (Miscue Inducer)</text>
+
+  <!-- Right Analysis Panel -->
+  <rect x="610" y="210" width="510" height="330" rx="10" fill="#0b171c" stroke="#162e38"/>
+  <text x="640" y="250" font-family="'Montserrat', sans-serif" font-weight="800" font-size="18" fill="#ffffff">Key Analytical Takeaways</text>
+  <text x="640" y="290" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">1. <tspan font-weight="700" fill="#34d399">Wide Yorker Efficiency:</tspan> Concedes the lowest boundary percentage (11.2%) by taking ball outside batter's natural bat-swing arc.</text>
+  <text x="640" y="350" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">2. <tspan font-weight="700" fill="#f87171">Slot Catastrophe:</tspan> Missing yorker length by just 18 cm turns delivery into slot half-volley with 2.34 expected runs.</text>
+  <text x="640" y="410" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">3. <tspan font-weight="700" fill="#fbbf24">Slower Ball Bouncers:</tspan> Effective when pitched 8–10 meters from stumps on abrasive red soil pitches.</text>
+  <text x="640" y="480" font-family="'Poppins', sans-serif" font-size="13" fill="#94a3b8">Bumrah Career Death Economy: 7.42 RPO vs Global T20 Benchmark: 11.18 RPO.</text>
+</svg>

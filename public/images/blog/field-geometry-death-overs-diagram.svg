@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <rect width="800" height="400" fill="#060e12"/>
+  <text x="40" y="45" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#10b981">Field Geometry for Wide Yorker Execution (Overs 16-20)</text>
+  <text x="40" y="70" font-family="'Poppins', sans-serif" font-size="13" fill="#94a3b8">5-man boundary placement guarding the off-side fence.</text>
+
+  <rect x="40" y="100" width="720" height="260" rx="8" fill="#0f232b" stroke="#162e38"/>
+  <text x="60" y="135" font-family="'Montserrat', sans-serif" font-weight="700" font-size="15" fill="#34d399">OPTIMAL 5-MAN DEEP BOUNDARY RING:</text>
+  <text x="60" y="170" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">1. Deep Backward Point (Guards slices &amp; outside edges)</text>
+  <text x="60" y="200" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">2. Deep Cover / Extra Cover (Guards hard drives inside-out)</text>
+  <text x="60" y="230" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">3. Long-Off (Guards straight aerial shots)</text>
+  <text x="60" y="260" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">4. Long-On (Protects straight hit down ground)</text>
+  <text x="60" y="290" font-family="'Poppins', sans-serif" font-size="14" fill="#e2e8f0">5. Deep Mid-Wicket (Protects pull/heave if line drifts on pads)</text>
+  <text x="60" y="335" font-family="'Poppins', sans-serif" font-weight="600" font-size="13" fill="#fbbf24">Tactical Logic: Forces batter to hit through packed off-side field against angling-away ball.</text>
+</svg>
